@@ -5,8 +5,8 @@ https://my-finance.org/2025/03/19/earnings-yield-3-bond-spreads-annual-returns/
 
 Data file: data.xlsx
 
-Vector autoregression for three spreads of order 1 and innovations normalized by annual volatility: 3spreads-vol.py
+Vector autoregression for three spreads of order 1 and innovations normalized by annual volatility: spreads.py
 
-Earnings growth vs three spreads and residuals normalized by volatility: rates-earn-new.py
+Earnings growth vs three spreads and residuals normalized by volatility: earnings-growth.py
 
-Total/Price and Nominal/Real returns vs 1-year earnings yield and last year's spreads with residuals normalized by volatility: rates-earn-vol-spreads.py
+Total/Price and Nominal/Real returns vs 1-year earnings yield and last year's spreads with residuals normalized by volatility: returns.py
