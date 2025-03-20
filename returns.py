@@ -33,7 +33,7 @@ def analysis(data, label):
     L1abs = sum(abs(acf(abs(data), nlags = 5)[1:]))
     print('L1 norm absolute residuals ', round(L1abs, 3), label, '\n')
 
-df = pd.read_excel("rates-earn-new.xlsx", sheet_name = 'data')
+df = pd.read_excel("data.xlsx", sheet_name = 'data')
 vol = df["Volatility"].values[1:]
 N = len(vol)
 print('Data size = ', N)
